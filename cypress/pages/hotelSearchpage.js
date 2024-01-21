@@ -26,7 +26,8 @@ export class hotelSearch{
         //checkOut_active_Date: ".datepicker-days tbody .day.active",
         search_submitButton: "[type='submit']",
         text_Assertion: ".card-text.text-capitalize.mb-0",
-        text_expectedResult: "dsfadsf"
+        text_expectedResult: "dsfadsf",
+        exception: "uncaught:exception",
 
 
     }
@@ -99,6 +100,14 @@ export class hotelSearch{
     submitButton()
     {
         cy.get(this.hotelPageLocators.search_submitButton).click()
+    }
+
+
+    handldeException()
+    {
+        cy.on(this.locatorBookingProcess.exception, (err, runnable) => {
+            return false;
+          });
     }
 
 

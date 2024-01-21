@@ -17,6 +17,7 @@ describe('User Can Search with specific text in the hotel section',() =>{
         hotelSearchPageObj.checkInDate()
         hotelSearchPageObj.checkOutDate()
         hotelSearchPageObj.submitButton()
+        hotelSearchPageObj.handldeException();
 
     })
 }) 
