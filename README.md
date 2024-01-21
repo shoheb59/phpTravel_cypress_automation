@@ -11,4 +11,4 @@ git clone https://github.com/your-username/your-cypress-project.git
 cd your-cypress-project
 npm install
 ## Run
-npx cypress open
+```npx cypress open
