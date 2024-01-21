@@ -7,7 +7,7 @@
           "lastName": "Shoheb",
           "email": "@yopmail.com",
           "phoneNumber": "018135599",
-          "address": ""
+          "address": "Dhaka"
         
     },
 
@@ -16,7 +16,7 @@
         "adultFname1":"adult1 FistName",
         "adultLname1":"adult1 LastName",
         "adultFname2":"adult2 FirstName",
-        "adultLname2":""
+        "adultLname2":"adult2 LastName"
 
     }
     

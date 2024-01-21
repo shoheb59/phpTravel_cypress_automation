@@ -1,4 +1,4 @@
-import { LocatorserAuthicate } from "../pages/userAuthentication";
+import { LocatorserAuthicate } from "../../pages/userAuthentication";
 const locatorUserObj = new LocatorserAuthicate();
 
 
